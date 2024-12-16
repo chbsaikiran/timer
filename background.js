@@ -21,10 +21,6 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
       if (timeLeft <= 0) {
         clearInterval(timer);
         
-        // Play notification sound
-        const audio = new Audio('notification.mp3');
-        audio.play();
-        
         // Show Chrome notification
         chrome.notifications.create({
           type: 'basic',
