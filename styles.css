@@ -1,0 +1,44 @@
+body {
+  width: 300px;
+  padding: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.input-group {
+  margin: 15px 0;
+}
+
+input {
+  width: 70px;
+  padding: 5px;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.button-group {
+  margin: 15px 0;
+}
+
+button {
+  padding: 8px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#timeLeft {
+  font-size: 24px;
+  margin-top: 15px;
+  font-weight: bold;
+} 
